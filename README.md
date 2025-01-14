@@ -4,10 +4,10 @@ This repository contains an implementation of a Transformer model from scratch, 
 
 Features
 
-Pure From-Scratch Implementation: Written in Python, leveraging only minimal libraries (e.g., NumPy/PyTorch/TensorFlow, etc.).
-Multi-Head Attention: Implements scaled dot-product attention and parallel attention heads.
-Positional Encoding: Adds temporal context to token embeddings.
-Encoder-Decoder Architecture: Includes both encoder and decoder stacks with residual connections and layer normalization.
-Custom Tokenization: Supports tokenizing datasets for efficient sequence processing.
-Teacher Forcing: Utilized during training to speed up convergence for sequence-to-sequence tasks.
-Batch Processing: Designed with efficient batching for faster computations and gradient descent.
+- Pure From-Scratch Implementation: Written in Python, leveraging only minimal libraries.
+- Multi-Head Attention: Implements scaled dot-product attention and parallel attention heads.
+- Positional Encoding: Adds temporal context to token embeddings.
+- Encoder-Decoder Architecture: Includes both encoder and decoder stacks with residual connections and layer normalization.
+- Custom Tokenization: Supports tokenizing datasets for efficient sequence processing.
+- Teacher Forcing: Utilized during training to speed up convergence for sequence-to-sequence tasks.
+- Batch Processing: Designed with efficient batching for faster computations and gradient descent.
